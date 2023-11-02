@@ -1,0 +1,10 @@
+auth:
+  registerable: true
+  configuration:
+    - :name: Avalon Lti OAuth
+      :provider: :lti
+      :hidden: true
+      :params:
+        :oauth_credentials:
+          LTItest: 'LTIpassword'
+

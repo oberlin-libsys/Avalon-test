@@ -1,0 +1,26 @@
+# Required Settings
+AVALON_DOCKER_REPO=avalonmediasystem/avalon:7.0-aws
+AVALON_BRANCH=demo
+AVALON_REV=2
+AVALON_REPO=https://github.com/avalonmediasystem/avalon.git
+
+SETTINGS__DOMAIN=http://localhost:8888/
+STREAMING_HOST=localhost
+AVALON_DB_PASSWORD=
+FEDORA_DB_PASSWORD=
+SECRET_KEY_BASE=
+
+# Recommended Settings
+EMAIL_COMMENTS=avalon-comments@example.edu
+EMAIL_NOTIFICATION=avalon-notifications@example.edu
+EMAIL_SUPPORT=avalon-support@example.edu
+SMTP_ADDRESS=smtp.example.edu
+SMTP_PORT=587
+
+# Optional Settings
+# Z3950_HOST=
+# Z3950_PORT=
+# Z3950_DATABASE=
+# Z3950_ATTRIBUTE=
+# LTI_AUTH_KEY=
+# LTI_AUTH_SECRET=
